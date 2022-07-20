@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/CSS" href="style.css" rel="stylesheet">
+    <script src="gpa.js"></script>
+    <title>THIRD YEAR SECOND SEM RESULTS</title>
+</head>
+
+<body>
+    <marquee class="mar">III-II SEM CSE RESULTS</marquee>
+    <div class="wrapper">
+        <div class="box">
+            <table class="center">
+                <th style="color:tomato">SUBJECTS</th>
+                <th style="color:rgba(217, 15, 227, 0.855)">GRADES</th>
+                
+                <tr>
+                    <th>ML</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'ml',4)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <th>BDA</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'bda',3)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <th>CS</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'cs',3)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <th>SA</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'sa',3)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <th>ENG</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'eng',3)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>MEFA</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'mefa',3)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <th>ML LAB</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'mllab',1.5)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <th>CS LAB</th>
+                    <td>
+                        <select name="grade points" class="grades" onchange="grades(this.value,'cslab',1)">
+                            <option value="select">select</option>
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+
+            </table>
+            <div class="last">
+
+                <button type="button" class="btn" onclick="calculation()">
+                    Calculate</button>
+                <p class="result" id="result">Result</p>
+            </div>
+        </div>
+    </div>
+    
+        
+
+    
+</body>
+
+</html>
