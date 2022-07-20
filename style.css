@@ -1,0 +1,101 @@
+body{
+    background-image:url('https://unsplash.com/s/photos/plain-white') ;
+    background-size: cover;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(#20dddd,#1a56c5);
+
+}
+.center {
+    text-align: center;
+    color: red;
+  }
+  div {
+
+    background-color: ghostwhite;
+    
+    
+  }
+  .mar
+  {
+font-size: 50px;
+font-style: oblique;
+font-display:block ;
+text-transform:uppercase;
+background-color: #20dddd;
+  }
+  td
+  {
+    font-style: oblique;
+    background-color:rgba(60, 179, 113);
+
+
+  }
+  th
+  {
+color:rgb(0, 0, 153);
+  }
+  button
+  {
+    color: red;
+  }
+  select
+  {
+    width: 65px;
+    padding:4px;
+    color:springgreen;
+    background-color: black;
+  }
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(#20dddd,#1a56c5);
+
+}
+.center {
+    text-align: center;
+    color: red;
+  }
+  div {
+
+    background-color: ghostwhite;
+    background-image:url('https://unsplash.com/s/photos/plain-white') ;
+    
+    
+  }
+  .mar
+  {
+font-size: 50px;
+font-style: oblique;
+font-display:block ;
+text-transform:uppercase;
+background-color: #20dddd;
+  }
+  td
+  {
+    font-style: oblique;
+    background-color:rgba(60, 179, 113);
+
+
+  }
+  th
+  {
+color:rgb(0, 0, 153);
+  }
+  button
+  {
+    color: red;
+  }
+  select
+  {
+    width: 65px;
+    padding:4px;
+    color:springgreen;
+    background-color: black;
+  }
+  .wrapper
+  {
+    display:flex;
+    justify-content:center;
+    align:"center";
+  }
